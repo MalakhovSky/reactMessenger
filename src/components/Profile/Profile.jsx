@@ -1,18 +1,13 @@
 import MyPosts from './MyPosts/MyPosts';
 import s from './Profile.module.css'
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => {
-  return (
-    <div >
-      <div>
-        <img src='https://hdwallpaperim.com/wp-content/uploads/2017/08/24/98601-minimalism.jpg'></img>
-      </div>
-      <div >
-        ava + discription
-      </div>
-      
-     <MyPosts/>
-    </div>
-  )
+    return (
+        <div>
+            <ProfileInfo/>
+            <MyPosts/>
+        </div>
+    )
 }
 export default Profile;

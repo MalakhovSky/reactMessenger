@@ -6,8 +6,8 @@ const Profile = (props) => {
 
     return (
         <div>
-            <ProfileInfo dialogs = {props.dialogs} messagws = {props.messages}/>
-            <MyPosts posts = {props.posts}/>
+            <ProfileInfo dialogs = {props.state.dialogs} messagws = {props.state.messages}/>
+            <MyPosts posts = {props.state.posts}/>
         </div>
     )
 }

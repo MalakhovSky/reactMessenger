@@ -14,9 +14,22 @@
 }
 
 .messages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 10px;
+
 }
 
 .message {
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
 
+}
+img{
+    width: 30px;
+    border-radius: 20px;
 }
